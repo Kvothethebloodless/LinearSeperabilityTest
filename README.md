@@ -2,7 +2,10 @@
 
 This script uses linear programming module ```CVXOPT``` to convert the linear seperability problem into a linear programming problem and solve it. 
 
+Please Refer to [this link](http://www.joyofdata.de/blog/testing-linear-separability-linear-programming-r-glpk/)
+
 Please install ```CVXOPT``` before using the script. [CVXOPT Installation](http://cvxopt.org/install/).
+
 This script also uses ```NUMPY```. Please consider installing ```NUMPY```.
 
 ## Using the script ##
@@ -51,8 +54,8 @@ Standard Results if data is linearly seperable.
     [ 2.00e+00]
 ```
 						      
-						      ```
-	   
+
+
 
 Results if the data is linearly inseperable. Example: XOR problem.
 
@@ -72,7 +75,7 @@ Results if the data is linearly inseperable. Example: XOR problem.
 
        
     --------------------------------------------------------------------------------------------------------------
-      							 NOT LINEARLY SEPERABLE
+      						 NOT LINEARLY SEPERABLE
     --------------------------------------------------------------------------------------------------------------
 
 ```
