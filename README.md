@@ -1,4 +1,4 @@
-# Scipt to test Linear Seperability of 2 Classes data #
+# Scipt to test Linear Seperability of binary class data #
 
 This script uses linear programming module ```CVXOPT``` to convert the linear seperability problem into a linear programming problem and solve it. 
 
