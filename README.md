@@ -3,7 +3,7 @@
 This script uses linear programming module ```CVXOPT``` to convert the linear seperability problem into a linear programming problem and solve it. 
 
 Please install ```CVXOPT``` before using the script. [CVXOPT Installation](http://cvxopt.org/install/).
-This script also uses ``NUMPY```. Please consider installing ```NUMPY```.
+This script also uses ```NUMPY```. Please consider installing ```NUMPY```.
 
 # Using the script #
 
@@ -22,7 +22,7 @@ Code snippet illustrating usage.
 
 Standard Results if data is linearly seperable.
 
-```
+```python
 >>> l1 =  [[1,0],[1,1]]
 >>> l2 =  [[0,0],[0,1]]
 >>> l1 = np.array(l1)
@@ -58,7 +58,7 @@ Results if the data is linearly inseperable. Example: XOR problem.
 
 
 
-```
+```python
 >>> l1 =  [[0,0],[1,1]]
 >>> l2 =  [[1,0],[0,1]]
 >>> l1 = np.array(l1)
