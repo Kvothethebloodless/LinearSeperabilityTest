@@ -36,13 +36,22 @@ class LStest():
 	def create_C(self):
 		c = np.zeros(self.ndim+1);
 		self.C = matrix(c)
-	def optimize_program(self):
+	def test_seperability(self):
 		try:
 			sol=solvers.lp(self.C,self.A,self.B)
-			print("LINEARLY SEPERABLE. DETAILS FOLLOW \n \n")
-			print('----------------------------------------')
-			print (sol['x'])
+			
+			if sol['x']!= None:
+				print("\n \n-------------------------------------------------------------------------------------------------------------")
+				print('\t\t\t\t\t     LINEARLY SEPERABLE')
+				print ("-------------------------------------------------------------------------------------------------------------\n \n")
+				print("The seperating hyper plane is: \n")
+				print (sol['x'])
+			else:
+				print("\n \n-------------------------------------------------------------------------------------------------------------")
+				print('\t\t\t\t\t    NOT LINEARLY SEPERABLE')
+				print ("-------------------------------------------------------------------------------------------------------------\n \n")
 
+			
 		except ValueError, TypeError:
 			print("Error with Matrices and Ranks")
 			pass
