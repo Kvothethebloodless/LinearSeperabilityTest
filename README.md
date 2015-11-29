@@ -1,11 +1,11 @@
-## Scipt to test Linear Seperability of 2 Classes data ##
+# Scipt to test Linear Seperability of 2 Classes data #
 
 This script uses linear programming module ```CVXOPT``` to convert the linear seperability problem into a linear programming problem and solve it. 
 
 Please install ```CVXOPT``` before using the script. [CVXOPT Installation](http://cvxopt.org/install/).
 This script also uses ```NUMPY```. Please consider installing ```NUMPY```.
 
-# Using the script #
+## Using the script ##
 
 Initialize the class object `LStest()` with two variables, which hold the data in numpy matrices. The matrices should be of the dimensions `(no_samples,n_dim)` where `no_samples` are the number of points in that class and `n_dim` is the dimensionality of data points. `n_dim` should be the same for both matrices.
 
@@ -40,7 +40,7 @@ Standard Results if data is linearly seperable.
 	  
 	   
     -------------------------------------------------------------------------------------------------------------
-   					     LINEARLY SEPERABLE
+ 	  					     LINEARLY SEPERABLE
     -------------------------------------------------------------------------------------------------------------
 					      
 						      
@@ -72,7 +72,7 @@ Results if the data is linearly inseperable. Example: XOR problem.
 
        
     --------------------------------------------------------------------------------------------------------------
-      						 NOT LINEARLY SEPERABLE
+      							 NOT LINEARLY SEPERABLE
     --------------------------------------------------------------------------------------------------------------
 
 ```
