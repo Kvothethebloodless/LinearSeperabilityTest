@@ -2,8 +2,7 @@
 
 This script uses linear programming module ```CVXOPT``` to convert the linear seperability problem into a linear programming problem and solve it. 
 
-Please Refer to [this link](http://www.joyofdata.de/blog/testing-linear-separability-linear-programming-r-glpk/)
-
+Please Refer to [this link](http://www.joyofdata.de/blog/testing-linear-separability-linear-programming-r-glpk/) from the _Joy of Data_ blog for background on optimization formulation of the linear seperability problem .
 Please install ```CVXOPT``` before using the script. [CVXOPT Installation](http://cvxopt.org/install/).
 
 This script also uses ```NUMPY```. Please consider installing ```NUMPY```.
